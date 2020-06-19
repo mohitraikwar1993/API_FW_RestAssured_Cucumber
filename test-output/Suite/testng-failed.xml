@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="restAssured_Tests.Demo1_GetRequest">
+        <methods>
+          <include name="getWeatherDetails"/>
+        </methods>
+      </class> <!-- restAssured_Tests.Demo1_GetRequest -->
+      <class name="restAssured_Tests.Demo4_DELETERequest">
+        <methods>
+          <include name="deleteEmployeeRecord"/>
+        </methods>
+      </class> <!-- restAssured_Tests.Demo4_DELETERequest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

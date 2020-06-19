@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Smoke">
+    <classes>
+      
+      <class name="restAssured_Tests.Demo3_PUTRequest"/>
+      <class name="restAssured_Tests.Demo2_POSTRequest"/>
+      <class name="restAssured_Tests.Demo1_GetRequest"/>
+     
+    </classes>
+    
+    
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Regression">
+    <classes>
+      <class name="restAssured_Tests.Demo4_DELETERequest"/>
+      <class name="restAssured_Tests.Demo3_PUTRequest"/>
+      <class name="restAssured_Tests.Demo2_POSTRequest"/>
+      <class name="restAssured_Tests.Demo1_GetRequest"/>
+      <class name="restAssured_Tests.Demo5_GetRequest"/>
+    </classes>
+    
+    
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
